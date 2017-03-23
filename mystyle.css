@@ -1,0 +1,205 @@
+/* Zhen Yu, Period 4, Web Design */
+/*4C567F Dark Blue, E4E9FF White ish, 98ACFF Lighter blue-purple, 72757F Gray, 7989CC blue-purple*/
+
+/*css reset*/
+/*html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+*/
+body {
+	font-size: 1em;
+	font-weight: normal;
+	color: #000000; /* black */
+	text-align: left;
+	margin: 0 auto;
+	width: 70%;
+	min-width: 720px;
+	background-color: #4C567F; /*dark blue*/
+	color: #E4E9FF; /*white ish*/
+	font-family: "Ubuntu", "Segoe Ui", "Futura", "Verdana";
+	font-weight: normal;
+	background-image: url("http://hdwallpaperbackgrounds.net/wp-content/uploads/2016/07/white-background-5.jpg");
+}
+
+h1, h2, h3 {
+	font-family: Arial, Trebuchet;
+	font-weight: normal;
+}
+
+h1 {
+	background-color: #7989CC; /*Blue-purple*/
+	margin: auto;
+	padding: 30px;
+	font-size: 1.8em;
+	color: #E4E9FF; /*Whiteish*/
+	text-align: center;
+}
+
+h2 {
+	color: #98ACFF; /*Lighter blue-purple*/
+	padding: 1px;
+	margin: 0 auto;
+	text-align: center;
+	font-size: 37px;
+}
+
+div {
+	border: 1px;
+}
+
+p {
+	margin: auto;
+	padding: 7px;
+	font-size: 17px;
+	font-weight: normal;
+	color: black;
+}
+
+ul {
+	list-style-type: none;
+	color: black;
+}
+
+table {
+	margin: 0 auto;
+}
+
+caption {
+	font-weight: bold;
+}
+
+/* navigation menu styles */
+nav {
+	clear: left;
+}
+
+nav ul {
+	list-style-type: none;
+}
+
+nav ul li {
+	float: left;
+	margin-right: 0.5em;
+}
+
+nav ul li a {
+	padding: 0.25em 1em;
+	text-decoration: none; /* no unerline */
+	background-color: #7989CC;
+	color: #E4E9FF;
+	border: 2px solid black;
+	border-top-left-radius: 1em 1em;
+	border-top-right-radius: 1em 1em;
+}
+
+nav ul li a:hover, nav ul li a:focus {
+	color: black;
+	background-color: white;
+	font-weight: bold;
+}
+
+main {
+	clear: left;
+	padding: 1em;
+}
+
+
+div#skipnav {
+	position: relative;
+	width: 10em;
+	top: 5px;
+	left: 5px;
+	right: 12.5%;
+	text-align: center;
+}
+div.info {
+	background-color: #7989CC; /*Blue-purple*/
+	width: 40%;
+	font-size: 1.2em;
+	float: left;
+}
+p#overview {
+	padding: 12px;
+}
+p.temp {
+	font-style: italic;
+}
+#main {
+	color: white;
+}
+
+  a { 
+    color: black;
+  }
+  a:hover, a:focus { 
+    color: white;
+  }
+  button { 
+	padding: 0.25em 1em;
+	text-decoration: none; /* no unerline */
+	background-color: #7989CC;
+	color: #E4E9FF;
+	border: 2px solid black;
+	border-top-left-radius: 1em 1em;
+	border-top-right-radius: 1em 1em;
+  }
+  button:hover, button:focus, button:active { 
+    /* swap colors */
+	color: black;
+	background-color: white;
+	font-weight: bold;
+    cursor: pointer; /* displays a hand */
+  }
+
+    div#clock { 
+      text-align: center;
+      font-size: 100px;
+      display: block;
+      color: black;
+    }
+
+	div.items {
+		text-align: center;
+		color: black;
+}
